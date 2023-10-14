@@ -35,9 +35,9 @@ The tables below briefly summarize the cluster resources and components associat
 
 In this section, we will explain how to install an operator from the OperatorHub in the OpenShift web console. Installing an operator via the web console is the easiest way to add software and extend the power of your OpenShift cluster. 
 
-**For our example, we will install the ElasticSearch operator RedHat provides**. 
+For our example, we will install the ElasticSearch operator RedHat provides. 
 
-Please note this operator is meant to be integrated with other Red Hat operators and services. In our case, installing this operator is simply for demo purposes. Our demo only covers installing the operator. Each operator will have application-specific configurations that are outside of the scope of this article. 
+*  **Please note this operator is meant to be integrated with other Red Hat operators and services. In our case, installing this operator is simply for demo purposes. Our demo only covers installing the operator. Each operator will have application-specific configurations that are outside of the scope of this article.** 
 
 **Step 1** - Select Operators on the left-hand menu from the web console and click on Operator Hub. Search for ElasticSearch and select the OpenShift ElasticSearch Operator
 
@@ -57,5 +57,3 @@ Once the installation is complete, click on View Operator to see the installatio
 ## Conclusion
 
 OpenShift Operators play a vital role in OpenShift clusters. Their power lies in being able to integrate and extend the capabilities of the cluster as well as automatically manage software installation and updates.
-
-
