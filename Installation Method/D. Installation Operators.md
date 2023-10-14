@@ -41,15 +41,15 @@ Please note this operator is meant to be integrated with other Red Hat operators
 
 **Step 1** - Select Operators on the left-hand menu from the web console and click on Operator Hub. Search for ElasticSearch and select the OpenShift ElasticSearch Operator
 
-![Alt text](icons/article-openshift-operators_Img2-1.png)
+![Alt text](https://github.com/gitops97123/OpenShift-v4.12.X/blob/main/icons/article-openshift-operators_Img2-1.png?raw=true)
 
 **Step 2** - There will be a preview screen where you can see some of the details for the operator. This page will often provide details of the operator software. Once you have read the information, click “Install.”
 
-![Alt text](icons/article-openshift-operators_Img3.png)
+![Alt text](https://github.com/gitops97123/OpenShift-v4.12.X/blob/main/icons/article-openshift-operators_Img3.png?raw=true)
 
 **Step 3** - On the next screen is the option to choose the channel (subscription), installation mode (automatic or manual), and the installed namespace. Unless you have other specific requirements, the default openshift-operators-redhat is a suitable namespace. 
 
-![Alt text](icons/article-openshift-operators_Img4.png)
+![Alt text](https://github.com/gitops97123/OpenShift-v4.12.X/blob/main/icons/article-openshift-operators_Img4.png?raw=true)
 
 Once the installation is complete, click on View Operator to see the installation results. Uninstalling an operator is as simple as selecting “Actions” and “Uninstall Operator.”
 
