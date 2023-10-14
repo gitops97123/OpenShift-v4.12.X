@@ -169,7 +169,8 @@ Creating openshift variables :
     System clock synchronized: yes
                   NTP service: active
               RTC in local TZ: no
-#### DNS Configuration 
+
+#### Step 4: DNS Configuration 
 
 
     [root@bastion ~]# cat /etc/named.conf
@@ -256,7 +257,7 @@ Creating openshift variables :
     [root@bastion ~]# systemctl enable --now named    
 
 
-#### Quay Registry Configuration
+#### Step 5: Quay Registry Configuration
 
 Installation podman package. 
     
@@ -356,11 +357,15 @@ Extract podman secret file in json format.
     [root@bastion ~]# ls
     anaconda-ks.cfg  materials  pull-secret.txt  quay-secret.json
 
+#### step 6: Create dockerconfiguration creds.
+
 Generating credentials for download operators.
 
     [root@bastion ~]# mkdir .docker    
     [root@bastion ~]# cp pull-secret.txt .docker/config.json
 
+
+#### step 7: Getting Openshift Variables
 
 modify openshift-vars.sh. add pull secret variables. 
 
